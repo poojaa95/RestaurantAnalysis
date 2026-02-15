@@ -1,76 +1,66 @@
-# Restaurant Sales Data Analysis
+# Restaurant Sales Analysis (Practice Project)
 
-## Introduction
+## About
 
-This is a small data analysis project I worked on to practice Python and data visualization.  
-I used a restaurant dataset to explore sales patterns and customer behavior.
+This is a small project I made while learning data analysis with Python.  
+I wanted to practice working with a real dataset instead of just examples from tutorials.
 
-The main goal of this project was to improve my understanding of working with real datasets using Pandas and Seaborn.
-
----
-
-## Dataset
-
-The dataset contains 244 restaurant bills.  
-Each row represents one table/customer visit.
-
-Columns in the dataset:
-- total_bill – total amount of the bill
-- tip – tip given
-- sex – gender of the customer
-- smoker – whether the customer is a smoker
-- day – day of the visit
-- time – lunch or dinner
-- size – number of people at the table
+The dataset is about restaurant bills and tips. I used it to understand how to explore data and create graphs.
 
 ---
 
-## What I Did
+## Dataset Details
 
-In this project, I:
+The dataset has 244 rows, and each row represents one restaurant bill.
 
-- Loaded the dataset using Pandas
-- Checked the structure of the data
-- Calculated total revenue
-- Analyzed revenue by day
-- Created different visualizations (bar chart, scatter plot, boxplot)
-- Looked at tipping patterns
-- Compared spending by gender and group size
+It includes:
 
----
-
-## Observations
-
-- Saturday had the highest revenue.
-- Tips generally increased as the total bill increased.
-- Larger groups had higher total bills.
-- There were small differences in spending between genders and smokers.
+- total_bill → total amount paid
+- tip → tip given
+- sex → gender
+- smoker → smoker or not
+- day → day of the week
+- time → lunch or dinner
+- size → number of people at the table
 
 ---
 
-## Tools Used
+## What I Tried To Do
 
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
+In this project, I mainly focused on:
+
+- Loading data using Pandas
+- Checking basic info about the dataset
+- Calculating total revenue
+- Finding which day had the highest sales
+- Creating graphs to understand patterns
+- Looking at how tips change with total bill
+- Checking if group size affects spending
 
 ---
 
-## How to Run
+## What I Observed
 
-1. Install required libraries:
-   pip install pandas matplotlib seaborn
+- Saturday had the highest total revenue.
+- Bigger bills usually had bigger tips.
+- Larger groups spent more money.
+- Differences between smokers and non-smokers were not very big.
 
-2. Run the Python file:
-   python analysis.py
+---
+
+## Tools I Used
+
+- Python  
+- Pandas  
+- Matplotlib  
+- Seaborn  
 
 ---
 
 ## Why I Made This
 
-I created this project to practice data analysis and understand how to extract insights from data.  
-This helped me get more comfortable with data manipulation and visualization in Python.
+I made this project to improve my understanding of data analysis and visualization.  
+I’m still learning, but this helped me understand grouping, plotting, and extracting insights from data.
 
-I plan to build more advanced projects in the future.
+I will try to build more projects like this to improve further.
 
